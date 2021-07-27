@@ -18,7 +18,7 @@ We are getting started with [Hugo](https://gohugo.io/). It is a blasing fast sta
 
 ## Contributing
 Thank you for your interest in contributing. You can contribute by:
-- Using this project and submitting issues that you find.
-- Adding features and fixing issues by submitting a pull request.
+- Using this project and submitting issues that you find
+- Adding features and fixing bugs through pull requests
 
 For you development setup. You will need `Hugo >= v0.85.0+`.
