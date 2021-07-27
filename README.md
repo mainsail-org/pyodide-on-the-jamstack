@@ -13,12 +13,26 @@ You can read more about the Jamstack on [jamstack.org](https://jamstack.org/)
 ## How to put Pyodide on the Jamstack?
 With the Jamstack architecture, pre-rendered content is served to a content delivery network (CDN) and made dynamic through **APIs** and **serverless functions**. We want to add WebAssembly and Python to the mix. Content can then be made dynamic by using **APIs**, **serverless functions** AND the **Python runtime in the browser**.
 
+## Goals
+
+Setup a Jamstack workflow and a static site generator that lets an author create a Python-enabled site.
+
+These are some thing that an author should be able to do without having to learn Javascript:
+- [ ] write prose in markdown
+- [ ] write math using the Tex typesetting system
+- [ ] load pyodide from a CDN
+- [ ] load python code snippets from a python file
+- [ ] load python code snippets and outputs from a Jupyter Notebook
+- [ ] edit and execute code snippets in the browser
+- [ ] use pyodide packages like numpy and pandas in the browser
+- [ ] run asynchronous python code
+- [ ] run python code in a service worker
+- [ ] publish a Python-enabled site to the web, at no cost
+
 ## Which Static Site Generators?
-We are getting started with [Hugo](https://gohugo.io/). It is a blasing fast static generator written in Go.
+We are getting started with [Hugo](https://gohugo.io/). It is a blasing fast static generator written in Go. Jekyll, Gatsby and other static generators will be added.
 
 ## Contributing
 Thank you for your interest in contributing. You can contribute by:
-- Using this project and submitting issues that you find
+- Using this project and submitting issues
 - Adding features and fixing bugs through pull requests
-
-For you development setup. You will need `Hugo >= v0.85.0+`.
